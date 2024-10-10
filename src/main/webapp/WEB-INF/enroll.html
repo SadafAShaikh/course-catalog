@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Catalog - Enroll</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Enroll in a Course</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="course-details.html">Course Details</a>
+            <a href="instructors.html">Instructors</a>
+            <a href="enroll.html">Enroll</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Fill in the form to enroll</h2>
+        <form>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="course">Select Course:</label><br>
+            <select id="course" name="course">
+                <option value="1">Web Development</option>
+                <option value="2">Data Science</option>
+                <option value="3">Cloud Computing</option>
+            </select><br><br>
+            <input type="submit" value="Enroll">
+        </form>
+    </main>
+</body>
+</html>
